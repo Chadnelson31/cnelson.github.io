@@ -1,0 +1,173 @@
+/* Style sheet created by: Chad Nelson-Toohey, 11/7/2016*/
+
+/*Style for body specifies a background color */
+body {
+    background-color: #34efe6;
+}
+
+/*style to create a fluid image */
+img {
+    max-width: 100%;
+}
+
+/*Styles for Mobile Layout */
+
+
+/*Style for container centers the page and sets the element width */
+#container {
+    width: 100%;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+/*Style for header specifies top and bottom margins, background color, rounded border, shadow, and alignment */
+header {
+    text-align: center;
+    height: 10em;
+
+}
+
+
+
+/* Style for nav specifies text properties, padding, margins, and borders */
+nav {
+    font-family: Georgia, "Times New Roman", serif;
+    font-size: 1.25em;
+    font-weight: bold;
+    text-align: center;
+    margin-top: -1.5em;
+}
+
+nav ul {
+    padding: 0;
+    margin-top:0.5em;
+    margin-bottom: 0.5em;
+}
+
+/* Style for nav li specifies the background color, rounded corners, removes bullet style, and applies margins and padding for list items within the navigation */
+nav li {
+    background-color: #FFFFFF;
+    border-radius: 2em;
+    list-style-type: none;
+    margin: 0.3em;
+    padding: 0.4em;
+    opacity: 0.85;
+}
+
+/*Style changes navigation link text color to white and removes the underline */
+nav li a {
+    color: black;
+    text-decoration: none;
+}
+
+/* Style displays the mobile class */
+.mobile {
+    display: inline;
+}
+
+/* Style hides the desktop class */
+.desktop {
+    display: none;
+}
+/* Style for main specifies a block display, text properties, margins, padding, rounded border, and shadow */
+main {
+    display: block;
+    font-family: Verdana, Arial, sans-serif;
+    font-size: 1em;
+    margin-top: .5em;
+    padding: 1em;
+    border-radius: 2em 0 2em 0;
+    background-color: #FFFFFF;
+    opacity: 0.85;
+}
+
+
+/* Style for anchor elements within th emain element */
+main a {
+    background-color: #34efe6;
+    border-radius: 1em;
+    color:#496866
+;
+    font-weight: bold;
+    padding: 0.5em;
+    text-decoration: none;
+}
+
+/*Style for footer specifies font size, text alignment, and top margin */
+footer {
+    font-size: .70em;
+    text-align: center;
+    margin-top: 2em;
+    color: #FFFFFF;
+}
+
+/* Style for anchor elements within the footer */
+footer a {
+    color: #FFFFFF;
+    text-decoration: none;
+}
+
+/* Style hides the tablet class */
+.tablet {
+    display: none;
+}
+
+/* Style rule specifies to not display the equip class */
+.equip {
+    display: none;
+}
+
+/* Style for aside element */
+aside {
+    font-style: italic;
+}
+
+/* Style rule for input, select, and texarea form elements */
+input, select, textarea {
+    display: block;
+    margin-bottom: 1em;
+}
+
+/**/
+label {
+    display: block;
+}
+
+/**/
+form ul {
+    list-style-type: none;
+}
+
+/**/
+.chkbx {
+    display: inline-block;
+}
+
+/**/
+.video {
+    padding: 1em;
+    text-align: center;
+}
+
+video {
+    border: 0.5em;
+    height: auto;
+    max-width: 100%;
+}
+
+#copyright {
+    float: left;
+    margin-top: 2em;
+    width: 80%
+}
+
+#social {
+    float: right;
+    width: 20%;
+}
+
+#social img {
+    padding: 0.5em;
+}
+/* Media query for tablet viewport targets screen size with a minimum width of 660px */
+
